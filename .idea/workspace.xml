@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6dee2cd5-9d2c-4f8f-bf6c-a374f3cc2755" name="Default Changelist" comment="" />
+    <list default="true" id="6dee2cd5-9d2c-4f8f-bf6c-a374f3cc2755" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Californium.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Californium.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ProjectId" id="1Xc0yXc7O9vZZTqMhQOZ7U1kgxj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
