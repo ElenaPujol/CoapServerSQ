@@ -22,7 +22,7 @@ public class Server extends CoapServer {
 
     class PublishResource extends CoapResource {
         public PublishResource() {
-            super("publish");
+            super("SQpublish");
             getAttributes().setTitle("Publish Resource");
         }
         public void handlePOST(CoapExchange exchange) {
