@@ -22,8 +22,7 @@ public class MyResource extends CoapResource {
         if(true) {
             // do something specific to the request options
             txt += "TRUE";
-            //System.console().printf("IF is TRUE!!");
-            System.out.printf("IF is TRUE!!\n");
+            System.out.println("IF is TRUE!!");
         }
         // reply with response code only (shortcut)
         exchange.respond(txt + " CREATED");
