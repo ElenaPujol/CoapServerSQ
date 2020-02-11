@@ -1,6 +1,8 @@
 package com.coap.server.main;
 
 import java.net.SocketException;
+
+import main.resources.MyResource;
 import org.eclipse.californium.core.CoapResource;
 import org.eclipse.californium.core.CoapServer;
 import org.eclipse.californium.core.server.resources.CoapExchange;
@@ -8,12 +10,16 @@ import org.eclipse.californium.core.server.resources.CoapExchange;
 public class Server extends CoapServer {
 
     public static void main(String[] args) {
-        try {
+        /*try {
             Server server = new Server();
             server.start();
         } catch (SocketException e) {
             System.err.println("Failed to initialize server: " + e.getMessage());
-        }
+        }*/
+
+        CoapServer myserver = new CoapServer();
+        myserver.add(new MyResource("SQhello"));
+        myserver.start(); //Does all the magic
     }
 
     public Server() throws SocketException {
